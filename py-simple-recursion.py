@@ -5,7 +5,10 @@ def main():
 
 def count_down(i):
     print(i)
-    count_down(i - 1)
+    if i == 0:
+        return 1
+    else:
+        count_down(i - 1)
 
 main()
 
