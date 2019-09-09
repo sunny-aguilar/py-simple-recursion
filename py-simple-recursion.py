@@ -4,6 +4,9 @@ def main():
     print("Recursive subtraction")
     count_down(5)
 
+    print("Factorials")
+    print(factorial(5))
+
 
 # recursive function that prints i until i = 0
 def count_down(i):
