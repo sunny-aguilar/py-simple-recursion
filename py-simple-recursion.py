@@ -19,9 +19,9 @@ def count_down(i):
 
 def factorial(x):
     if x == 1:
-        return 1
+        return 1                    # base case
     else:
-        return x * factorial(x - 1)
+        return x * factorial(x - 1) # recursive case
 
 
 # run program
