@@ -1,6 +1,7 @@
 # recursive function that shows the base case
 # and recursive
 def main():
+    print("Recursive subtraction")
     count_down(5)
 
 
@@ -11,6 +12,13 @@ def count_down(i):
         return
     else:           # recursive case
         count_down(i - 1)
+
+
+def factorial(x):
+    if x = 1:
+        return 1
+    else:
+        return x * factorial(x - 1)
 
 
 # run program
