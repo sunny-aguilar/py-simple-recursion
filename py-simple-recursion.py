@@ -1,10 +1,10 @@
 # recursive function that shows the base case
 # and recursive
 def main():
-    print("Recursive subtraction")
+    print("Recursive subtraction:")
     count_down(5)
 
-    print("Factorials")
+    print("\nFactorials:")
     print(factorial(5))
 
 
