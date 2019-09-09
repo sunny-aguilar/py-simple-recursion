@@ -12,7 +12,7 @@ def count_down(i):
         count_down(i - 1)
 
 
-# begin program
+# run program
 main()
 
 
