@@ -37,8 +37,7 @@ def sum_array(array):
         return array[0]
     else:
         print(array)
-        x = array[0] + sum_array(array)
-        return x
+        return array[0] + sum_array(array)
 
 
 # run program
