@@ -36,7 +36,7 @@ def sum_array(array):
     if len(array) == 1:
         return array[0]
     else:
-        return array[0] + sum_array()
+        return array[0] + sum_array(array.pop(0))
 
 
 
