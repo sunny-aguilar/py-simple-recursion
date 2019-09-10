@@ -31,7 +31,7 @@ def factorial(x):
         return x * factorial(x - 1)     # recursive case
 
 
-# adding each element of an array using recursion
+# sum on an array's elements using recursion
 def sum_array(array):
     if len(array) == 1:                 # base case
         print("Base case reached")
