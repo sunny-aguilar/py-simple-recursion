@@ -38,7 +38,6 @@ def sum_array(array):
         return array[0]
     else:
         array.pop(0)
-        print("Second", array)
         return array[0] + sum_array(array)
 
 
