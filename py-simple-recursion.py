@@ -11,6 +11,9 @@ def main():
     print("\nFactorials:")
     print(factorial(5))
 
+    print("\nArray Sum:")
+    def  sum_array([])
+
 
 # recursive function that prints i until i = 0
 def count_down(i):
