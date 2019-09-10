@@ -29,7 +29,8 @@ def factorial(x):
 
 
 # adding each element of an array using recursion
-
+def sum_array([1, 2, 3]):
+    print()
 
 
 
