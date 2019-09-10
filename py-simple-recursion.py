@@ -41,6 +41,7 @@ def sum_array(array):
     else:
         # print(array.pop(0))
         # print(array[0])
+        print()
         total += array[0]
         print("Total: ", total)
         array.pop(0)
