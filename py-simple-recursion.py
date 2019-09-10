@@ -35,6 +35,8 @@ def factorial(x):
 def sum_array(array):
     if len(array) == 1:
         return array[0]
+    else:
+
 
 
 
