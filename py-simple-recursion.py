@@ -36,8 +36,9 @@ def sum_array(array):
     if len(array) == 1:
         return array[0]
     else:
-        array.pop(0)
-        return array[0] + sum_array(array)
+        print(array)
+        x = array[0] + sum_array(array)
+        return x
 
 
 # run program
