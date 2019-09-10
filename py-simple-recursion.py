@@ -12,7 +12,7 @@ def main():
     print(factorial(5))
 
     print("\nArray Sum:")
-    def  sum_array([1, 2, 3])
+    sum_array([1, 2, 3])
 
 
 # recursive function that prints i until i = 0
