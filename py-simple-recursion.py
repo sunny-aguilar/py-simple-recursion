@@ -33,7 +33,8 @@ def factorial(x):
 
 # adding each element of an array using recursion
 def sum_array(array):
-    print()
+    if len(array) == 1:
+        return array[0]
 
 
 
