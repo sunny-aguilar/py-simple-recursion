@@ -39,7 +39,7 @@ def sum_array(array):
     else:
         total = array[0]
         array.pop(0)
-        return array[0] + sum_array(array)
+        return total + sum_array(array)
 
 
 # run program
