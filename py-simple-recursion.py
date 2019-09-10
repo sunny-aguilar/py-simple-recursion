@@ -34,9 +34,14 @@ def factorial(x):
 # adding each element of an array using recursion
 def sum_array(array):
     if len(array) == 1:
+        print("Base case reached")
+        print(array[0])
         return array[0]
     else:
-        print(array)
+        # print(array.pop(0))
+        print(array[0])
+        array.pop(0)
+        # print(array)
         return array[0] + sum_array(array)
 
 
