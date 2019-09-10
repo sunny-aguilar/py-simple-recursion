@@ -12,7 +12,6 @@ def main():
     print(factorial(5))
 
     print("\nArray Sum:")
-    total = 0
     print(sum_array([1, 2, 3]))
 
 
