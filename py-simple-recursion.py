@@ -28,6 +28,8 @@ def factorial(x):
         return x * factorial(x - 1)     # recursive case
 
 
+# adding each element of an array using recursion
+
 
 
 
